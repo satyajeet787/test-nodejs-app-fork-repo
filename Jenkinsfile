@@ -4,7 +4,7 @@ pipeline {
 
    stages {
    
-     stage('Install Dependencies') { 
+     stage('Install new Dependencies') { 
         steps { 
            sh 'npm install' 
         }
